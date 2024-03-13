@@ -1,12 +1,12 @@
 :root {
-    /*Colors*/
-    --background-color: white;
+	/*Colors*/
+	--background-color: white;
 
-    /*Fonts*/
-    --font-family: poppins, sans-serif
+	/*Fonts*/
+	--font-family: poppins, sans-serif;
 }
 
 body {
-    background-color: var(--background-color);
-    font-family: var(--font-family);
+	background-color: var(--background-color);
+	font-family: var(--font-family);
 }

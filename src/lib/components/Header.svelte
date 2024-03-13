@@ -14,6 +14,7 @@
 		background-color: var(--header-color);
 		color: var(--header-font-color);
 		box-shadow: 1px 1px 5px 2px var(--shadow-color);
+		height: calc(124px + 1rem);
 
 		display: flex;
 		flex-direction: row;

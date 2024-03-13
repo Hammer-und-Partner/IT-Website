@@ -1,13 +1,31 @@
 <header>
-	<img src="/logo.png" alt="Hammer & Partner Logo" />
+	<a href="https://hammer.partners/">
+		<img src="/logo.png" alt="Hammer & Partner Logo" />
+	</a>
 
-	<h1>Hammer partners IT GmbH</h1>
-	<small>IT Diesntleistungen</small>
+	<div class="title">
+		<h1>Hammer partners IT GmbH</h1>
+		<small>IT Diesntleistungen</small>
+	</div>
 </header>
 
 <style lang="scss">
 	header {
 		background-color: var(--header-color);
 		color: var(--header-font-color);
+
+		display: flex;
+		flex-direction: row;
+
+		img {
+			padding: 1rem;
+		}
+
+		.title {
+			margin-left: 2rem;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
 	}
 </style>

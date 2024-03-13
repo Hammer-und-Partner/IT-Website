@@ -13,6 +13,7 @@
 	header {
 		background-color: var(--header-color);
 		color: var(--header-font-color);
+		box-shadow: 1px 1px 5px 2px var(--shadow-color);
 
 		display: flex;
 		flex-direction: row;

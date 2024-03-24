@@ -4,13 +4,14 @@
 			<p>Außer der Schleifmühle 75</p>
 			<p>28203 Bremen</p>
 		</div>
-
+		<div class="border"></div>
+		<!-- Add a div with class "border" -->
 		<div class="contact">
 			<p>
-				<a href="tel:49421369040">Telefon: +49 421 369 04-0</a>
+				Telefon: <a href="tel:49421369040"> +49 421 369 04-0</a>
 			</p>
 			<p>
-				<a href="tel:494213690420">Fax: +49 421 369 04-20</a>
+				Fax: <a href="tel:494213690420"> +49 421 369 04-20</a>
 			</p>
 		</div>
 	</div>
@@ -33,6 +34,26 @@
 			justify-content: center;
 			align-items: center;
 			width: 100%;
+
+			.adress {
+				margin-left: 2rem;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+			}
+
+			.border {
+				border-left: 1px solid var(--header-font-color); /* Add border style */
+				height: calc(1rem * 2); /* Set the height to match the parent div */
+				margin: 0 2rem; /* Adjust the margin as needed */
+			}
+
+			.contact {
+				margin-left: 2rem;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+			}
 		}
 	}
 </style>

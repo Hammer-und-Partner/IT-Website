@@ -10,6 +10,17 @@
 
 <Header></Header>
 
-<slot />
+<main>
+	<div>
+		<slot />
+	</div>
+</main>
 
 <Footer></Footer>
+
+<style lang="scss">
+	main {
+		max-width: 50rem;
+		margin: 2.5rem auto;
+	}
+</style>

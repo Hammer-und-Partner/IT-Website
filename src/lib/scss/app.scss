@@ -45,3 +45,23 @@ a:hover::before {
 	transform-origin: left;
 	transform: scaleX(1);
 }
+
+ul {
+	list-style: none;
+
+	li {
+		margin-bottom: 0.5em;
+		padding-left: 1.5rem;
+		position: relative;
+
+		&::before {
+			background: #9bbaca;
+			content: '';
+			height: 2px;
+			left: 0;
+			position: absolute;
+			top: 0.7em;
+			width: 0.8rem;
+		}
+	}
+}

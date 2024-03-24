@@ -19,8 +19,12 @@
 		display: flex;
 		flex-direction: row;
 
-		img {
-			padding: 1rem;
+		a {
+			margin-bottom: 0.5rem;
+
+			img {
+				padding: 1rem;
+			}
 		}
 
 		.title {

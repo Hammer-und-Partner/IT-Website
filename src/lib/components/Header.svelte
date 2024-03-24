@@ -1,6 +1,6 @@
 <header>
 	<a href="https://hammer.partners/">
-		<img src="/logo.png" alt="Hammer & Partner Logo" />
+		<img src="/logo.svg" alt="Hammer & Partner Logo" />
 	</a>
 
 	<div class="title">

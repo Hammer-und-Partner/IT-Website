@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Datenmigration from '$lib/components/Datenmigration.svelte';
+	import IhrePartner from '$lib/components/IhrePartner.svelte';
 	import ProzessAnalyse from '$lib/components/ProzessAnalyse.svelte';
 	import ProzessBeratung from '$lib/components/ProzessBeratung.svelte';
 </script>
@@ -25,3 +26,5 @@
 <ProzessBeratung></ProzessBeratung>
 <ProzessAnalyse></ProzessAnalyse>
 <Datenmigration></Datenmigration>
+
+<IhrePartner></IhrePartner>

@@ -1,3 +1,9 @@
+<script lang="ts">
+	import Datenmigration from '$lib/components/Datenmigration.svelte';
+	import ProzessAnalyse from '$lib/components/ProzessAnalyse.svelte';
+	import ProzessBeratung from '$lib/components/ProzessBeratung.svelte';
+</script>
+
 <h2>Hastratus</h2>
 <h3>ERFOLGREICH MIT DIGITALER INTELLIGENZ</h3>
 
@@ -15,3 +21,7 @@
 		anschaulich, welche Segmente erfolgreich sind oder wo Sie vorausschauend agieren sollten.
 	</li>
 </ul>
+
+<ProzessBeratung></ProzessBeratung>
+<ProzessAnalyse></ProzessAnalyse>
+<Datenmigration></Datenmigration>

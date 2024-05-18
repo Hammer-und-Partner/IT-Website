@@ -1,7 +1,7 @@
 <header>
 	<div class="title">
 		<h1>Hammer partners IT GmbH</h1>
-		<small>IT Diesntleistungen</small>
+		<small>IT Diesntleistungen · Ein Unternehmen von Hammer & Partner</small>
 	</div>
 </header>
 

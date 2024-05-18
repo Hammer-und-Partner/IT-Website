@@ -1,8 +1,4 @@
 <header>
-	<a href="https://hammer.partners/">
-		<img src="/logo.svg" alt="Hammer & Partner Logo" />
-	</a>
-
 	<div class="title">
 		<h1>Hammer partners IT GmbH</h1>
 		<small>IT Diesntleistungen</small>
@@ -18,14 +14,6 @@
 
 		display: flex;
 		flex-direction: row;
-
-		a {
-			margin-bottom: 0.5rem;
-
-			img {
-				padding: 1rem;
-			}
-		}
 
 		.title {
 			margin-left: 2rem;

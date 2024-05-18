@@ -4,8 +4,8 @@
 	import ProzessBeratung from '$lib/components/ProzessBeratung.svelte';
 </script>
 
-<h2>Hastratus</h2>
-<h3>ERFOLGREICH MIT DIGITALER INTELLIGENZ</h3>
+<h1>Hastratus</h1>
+<h2>ERFOLGREICH MIT DIGITALER INTELLIGENZ</h2>
 
 <p>
 	Erhalten Sie eine Sofort-Analyse Ihrer Daten mit Hastratus, so heißt unser besonderes

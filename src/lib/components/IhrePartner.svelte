@@ -15,7 +15,7 @@
 
 <style lang="scss">
 	.flex {
-		margin-top: 1rem;
+		margin-top: 1rem !important;
 		margin-left: calc(0.8rem * -0.5);
 		margin-right: calc(0.8rem * -0.5);
 		margin-top: calc(0 * -1);

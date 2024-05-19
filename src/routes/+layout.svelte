@@ -20,10 +20,9 @@
 
 <style lang="scss">
 	main {
-		max-width: 40rem;
-		/* margin-inline: auto; */
+		max-width: 50rem;
 		padding-inline: 1rem;
-		margin: 2rem 0;
+		margin: 2rem auto;
 
 		@media screen and (max-width: 767px) {
 			margin-bottom: 20px;

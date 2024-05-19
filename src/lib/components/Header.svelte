@@ -1,7 +1,11 @@
 <header>
 	<div class="title">
 		<h1>Hammer partners IT GmbH</h1>
-		<small>IT Diesntleistungen · Ein Unternehmen von Hammer & Partner</small>
+		<small>
+			<span class="text-part">IT Dienstleistungen</span>
+			<span class="dot">·</span>
+			<span class="text-part">Ein Unternehmen von Hammer & Partner</span>
+		</small>
 	</div>
 </header>
 
@@ -20,6 +24,24 @@
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
+
+			.text-part {
+				display: inline;
+			}
+
+			.dot {
+				display: inline;
+			}
+
+			@media (max-width: 600px) {
+				.text-part {
+					display: block; /* This makes each part take the full width, causing a line break */
+				}
+
+				.dot {
+					display: none; /* This hides the dot */
+				}
+			}
 		}
 	}
 </style>

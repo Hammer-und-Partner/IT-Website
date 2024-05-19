@@ -9,7 +9,7 @@
 	<div class="flex">
 		<Partner name="Thorsten Hammer" image="/partner/thorsten_hammer.png" />
 		<Partner name="Oliver Schumacher" image="/partner/oliver_schumacher.png" />
-		<Partner name="Mathias Henke" image="/partner/oliver_schumacher.png" />
+		<Partner name="Matthias Henke" image="/partner/matthias_henke.png" />
 	</div>
 </div>
 

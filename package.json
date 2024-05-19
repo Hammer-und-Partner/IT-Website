@@ -17,12 +17,10 @@
 		"pre-commit": "pnpm run build && pnpm run format && pnpm run lint"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^3.2.0",
 		"@sveltejs/kit": "^2.5.9",
 		"@sveltejs/vite-plugin-svelte": "^3.1.0",
 		"@types/eslint": "8.56.7",
 		"@typescript-eslint/eslint-plugin": "^7.0.0",
-		"@typescript-eslint/parser": "^6.0.0",
 		"eslint": "^8.57.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.38.0",
@@ -32,6 +30,7 @@
 		"sass": "^1.77.0",
 		"svelte": "^4.2.17",
 		"svelte-check": "^3.7.1",
+		"svelte-preprocess": "^5.1.4",
 		"tslib": "^2.4.1",
 		"typescript": "^5.4.5",
 		"vite": "^5.2.11"

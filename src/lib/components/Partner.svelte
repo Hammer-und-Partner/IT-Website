@@ -11,7 +11,6 @@
 <style lang="scss">
 	div {
 		width: 45%;
-		margin: 0 auto;
 		background-color: var(--header-color);
 
 		img {
@@ -21,6 +20,22 @@
 		h3 {
 			padding: 0.5rem 0.5rem;
 			color: var(--header-font-color);
+		}
+	}
+
+	@media (max-width: 600px) {
+		div {
+			width: 90vw;
+			background-color: var(--header-color);
+
+			img {
+				width: 90vw;
+			}
+
+			h3 {
+				padding: 0.5rem 0.5rem;
+				color: var(--header-font-color);
+			}
 		}
 	}
 </style>

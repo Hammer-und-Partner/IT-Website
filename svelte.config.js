@@ -3,15 +3,14 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
+	preprocess: vitePreprocess(),
+
 	kit: {
-		adapter: adapter({
-			fallback: '404.html'
-		}),
+		adapter: adapter(),
 		paths: {
-			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
+			base: process.env.NODE_ENV === 'production' ? '/IT-Website' : ''
 		}
-	},
-	preprocess: [vitePreprocess()]
+	}
 };
 
 export default config;

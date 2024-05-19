@@ -1,10 +1,12 @@
 <script lang="ts">
+	import { base } from '$app/paths';
+
 	export let name: string;
 	export let image: string;
 </script>
 
 <div>
-	<img src={image} alt={name} />
+	<img src="{base}{image}" alt={name} />
 	<h3>{name}</h3>
 </div>
 

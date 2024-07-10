@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Footer from '$lib/components/Footer.svelte';
 	import Nav from '$lib/components/Nav/Nav.svelte';
 	import '$lib/scss/app.scss';
 </script>
@@ -13,10 +14,11 @@
 	<slot></slot>
 </main>
 
-<!--Footer-->
+<Footer />
 
 <style lang="scss">
 	main {
+		margin-top: 2rem;
 		margin-left: 2rem;
 		margin-right: 2rem;
 	}

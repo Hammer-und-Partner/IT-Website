@@ -139,7 +139,7 @@
 				</picture>
 			</div>
 			<h3>Thorsten Hammer</h3>
-			<p>Wirtschaftsprüfer, Steuerberater, Geschäftsführer</p>
+			<p>Wirtschaftsprüfer, Steuerberater</p>
 			<p><a href="tel:+49 421 369 04 50">+49 421 369 04 50</a></p>
 			<p><a href="mailto:t.hammer@hammer.partners">t.hammer@hammer.partners</a></p>
 			<p><a href="/vcf/t_hammer.vcf" download>vCard herunterladen</a></p>

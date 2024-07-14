@@ -132,7 +132,7 @@
 					/>
 					<img
 						src="https://hammer.partners/assets/images/9/2982_thammer-700a0ea5.jpg"
-						srcset="https://hammer.partners/assets/images/9/2982_thammer-700a0ea5.jpg 468w, assets/images/c/2982_thammer-dfc752a5.jpg 936w"
+						srcset="https://hammer.partners/assets/images/9/2982_thammer-700a0ea5.jpg 468w, https://hammer.partners/assets/images/c/2982_thammer-dfc752a5.jpg 936w"
 						alt=""
 						loading="lazy"
 					/>
@@ -159,7 +159,7 @@
 					/>
 					<img
 						src="https://hammer.partners/assets/images/1/3213_schumacher-e94e4c50.jpg"
-						srcset="https://hammer.partners/assets/images/1/3213_schumacher-e94e4c50.jpg 468w, assets/images/f/3213_schumacher-999fa306.jpg 936w"
+						srcset="https://hammer.partners/assets/images/1/3213_schumacher-e94e4c50.jpg 468w, https://hammer.partners/assets/images/f/3213_schumacher-999fa306.jpg 936w"
 						alt=""
 						loading="lazy"
 					/>

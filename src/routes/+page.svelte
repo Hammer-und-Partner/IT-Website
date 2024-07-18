@@ -147,7 +147,7 @@
 		<div class="person">
 			<h3>Mathias Henke</h3>
 			<p>Softwareentwickler</p>
-			<p><a href="mailto:m.henke@it-solve-mh.de">m.henke@it-solve-mh.de</a></p>
+			<p><a href="mailto:m.henke@it-solve-mh.de">m.henke@hammer.partners</a></p>
 			<p><a href="/vcf/m_henke.vcf" download>vCard herunterladen</a></p>
 		</div>
 		<div class="person">

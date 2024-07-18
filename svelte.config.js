@@ -1,8 +1,8 @@
-import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-node';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
-const config = {
+export default {
 	preprocess: vitePreprocess(),
 	onwarn: (warning, handler) => {
 		if (warning.code === 'css-unused-selector') {
@@ -12,10 +12,8 @@ const config = {
 	},
 	kit: {
 		adapter: adapter(),
-		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/IT-Website' : ''
+		csrf: {
+			checkOrigin: false
 		}
 	}
 };
-
-export default config;

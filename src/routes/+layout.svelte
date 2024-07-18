@@ -1,31 +1,25 @@
 <script lang="ts">
 	import Footer from '$lib/components/Footer.svelte';
-	import Header from '$lib/components/Header.svelte';
+	import Nav from '$lib/components/Nav/Nav.svelte';
 	import '$lib/scss/app.scss';
 </script>
 
 <svelte:head>
-	<title>Hammer partners IT GmbH</title>
+	<title>Hastratus</title>
 </svelte:head>
 
-<Header></Header>
+<Nav />
 
 <main>
-	<div>
-		<slot />
-	</div>
+	<slot></slot>
 </main>
 
-<Footer></Footer>
+<Footer />
 
 <style lang="scss">
 	main {
-		max-width: 50rem;
-		padding-inline: 1rem;
-		margin: 2rem auto;
-
-		@media screen and (max-width: 767px) {
-			margin-bottom: 20px;
-		}
+		margin-top: 2rem;
+		margin-left: 2rem;
+		margin-right: 2rem;
 	}
 </style>

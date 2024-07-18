@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Sabre//Sabre VObject 3.5.3//EN
+FN:Matthias Henke
+N:Matthias;Henke;;;
+TITLE:Softwareentwickler
+TEL:
+EMAIL:m.henke@hammer.partners
+ORG:Hammer partners IT GmbH
+END:VCARD

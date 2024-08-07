@@ -127,12 +127,12 @@
 			<div class="image">
 				<picture>
 					<source
-						srcset="https://hammer.partners/assets/images/0/2982_thammer-3a77dc97.webp 468w, https://hammer.partners/assets/images/7/2982_thammer-a9c57ed3.webp 936w"
+						srcset="/img/thorsten_hammer.jpg 468w, /img/thorsten_hammer.jpg 936w"
 						type="image/webp"
 					/>
 					<img
-						src="https://hammer.partners/assets/images/9/2982_thammer-700a0ea5.jpg"
-						srcset="https://hammer.partners/assets/images/9/2982_thammer-700a0ea5.jpg 468w, https://hammer.partners/assets/images/c/2982_thammer-dfc752a5.jpg 936w"
+						src="/img/thorsten_hammer.jpg"
+						srcset="/img/thorsten_hammer.jpg 468w, /img/thorsten_hammer.jpg 936w"
 						alt=""
 						loading="lazy"
 					/>
@@ -145,6 +145,20 @@
 			<p><a href="/vcf/t_hammer.vcf" download>vCard herunterladen</a></p>
 		</div>
 		<div class="person">
+			<div class="image">
+				<picture>
+					<source
+						srcset="/img/matthias_henke.jpg 468w, /img/matthias_henke.jpg 936w"
+						type="image/webp"
+					/>
+					<img
+						src="/img/matthias_henke.jpg"
+						srcset="/img/matthias_henke.jpg 468w, /img/matthias_henke.jpg 936w"
+						alt=""
+						loading="lazy"
+					/>
+				</picture>
+			</div>
 			<h3>Mathias Henke</h3>
 			<p>Softwareentwickler</p>
 			<p><a href="mailto:m.henke@it-solve-mh.de">m.henke@hammer.partners</a></p>
@@ -154,12 +168,12 @@
 			<div class="image">
 				<picture>
 					<source
-						srcset="https://hammer.partners/assets/images/5/3213_schumacher-513f9995.webp 468w, https://hammer.partners/assets/images/4/3213_schumacher-40efac68.webp 936w"
+						srcset="/img/oliver_schumacher.jpg 468w, /img/oliver_schumacher.jpg 936w"
 						type="image/webp"
 					/>
 					<img
-						src="https://hammer.partners/assets/images/1/3213_schumacher-e94e4c50.jpg"
-						srcset="https://hammer.partners/assets/images/1/3213_schumacher-e94e4c50.jpg 468w, https://hammer.partners/assets/images/f/3213_schumacher-999fa306.jpg 936w"
+						src="/img/oliver_schumacher.jpg"
+						srcset="/img/oliver_schumacher.jpg 468w, /img/oliver_schumacher.jpg 936w"
 						alt=""
 						loading="lazy"
 					/>

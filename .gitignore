@@ -14,3 +14,6 @@ vite.config.ts.timestamp-*
 
 app.js
 server.js
+
+server/app.js
+server/server.js

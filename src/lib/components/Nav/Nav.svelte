@@ -9,7 +9,7 @@
 		</li>
 		<li>
 			<div class="home-page">
-				<a href="/demo" class="demo">Demo</a>
+				<a href="https://dashboard.it.hammer.partners" class="demo">Demo</a>
 				<a href="/login" class="login">Login</a>
 				<a href="/download" class="download">Download</a>
 				<div class="menu">

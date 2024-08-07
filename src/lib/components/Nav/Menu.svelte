@@ -30,7 +30,9 @@
 		<button class="close-button" on:click={closeDropdown}>x</button>
 		<div class="row home">
 			<a href="/" class="link"><span><Fa icon={faHouse}></Fa></span>Home</a>
-			<a href="/demo" class="link"><span><Fa icon={faDesktop}></Fa></span>Demo</a>
+			<a href="https://dashboard.it.hammer.partners" class="link"
+				><span><Fa icon={faDesktop}></Fa></span>Demo</a
+			>
 			<a href="/login" class="link"><span><Fa icon={faSignInAlt}></Fa></span>Login</a>
 			<a href="/download" class="link"><span><Fa icon={faDownload}></Fa></span>Download</a>
 		</div>
